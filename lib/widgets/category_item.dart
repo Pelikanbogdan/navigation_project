@@ -1,4 +1,4 @@
-import 'package:anime_navigation/screens/categories_anime_screen.dart';
+import '../screens/category_meals_screen.dart';
 import 'package:flutter/material.dart';
 
 class CategoryItem extends StatelessWidget {
@@ -19,7 +19,7 @@ class CategoryItem extends StatelessWidget {
     //     },
     //   ),
     // );
-    Navigator.of(ctx).pushNamed(CategoryAnimeScreen.routeName, arguments: {
+    Navigator.of(ctx).pushNamed(CategoryMealsScreen.routeName, arguments: {
       'id': id,
       'title': title,
     });

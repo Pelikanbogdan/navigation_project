@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/categories_model.dart';
-import '../models/anime_model.dart';
+import '../models/meal_model.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
